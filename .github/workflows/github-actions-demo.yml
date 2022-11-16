@@ -41,7 +41,7 @@ jobs:
 
       - name: Build site
         run: pnpm build
-        working-directory: '<root>' # if necessary, should contain {out}
+        working-directory: '/home/personal-website' # if necessary, should contain {out}
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
