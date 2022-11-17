@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from 'svelte-adapter-deno';
 import preprocess from 'svelte-preprocess';
 
 
