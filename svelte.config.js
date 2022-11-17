@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from 'svelte-adapter-deno';
 import preprocess from 'svelte-preprocess';
 
 

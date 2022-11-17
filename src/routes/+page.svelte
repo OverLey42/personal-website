@@ -8,6 +8,7 @@
 <div class="social flex justify-center mt-24">
 	<div class="social-child flex flex-wrap outline outline-offset-8 rounded-xl text-center p-10 m-16">
 		<div class="flex-grow">
+			<h1>GitHub</h1>
 			<div class="github outline p-7 justify-center rounded-xl shadow-lg flex items-center space-x-4 m-4 min-w-[200px] w-auto">
 				<div class="shrink-0">
 				  <img class="rounded-full h-12 w-12" src="https://avatars.githubusercontent.com/u/73314792?v=4" alt="ChitChat Logo">
@@ -20,6 +21,7 @@
 		</div>
 		
 		<div class="flex-grow">
+			<h1>GitHub</h1>
 			<div class="github outline p-7 justify-center rounded-xl shadow-lg flex items-center space-x-4 m-4 min-w-[200px] w-auto">
 				<div class="shrink-0">
 				  <img class="rounded-full h-12 w-12" src="https://avatars.githubusercontent.com/u/73314792?v=4" alt="ChitChat Logo">
@@ -32,6 +34,7 @@
 		</div>
 
 		<div class="flex-grow">
+			<h1>GitHub</h1>
 			<div class="github outline p-7 justify-center rounded-xl shadow-lg flex items-center space-x-4 m-4 min-w-[200px] w-auto">
 				<div class="shrink-0">
 				  <img class="rounded-full h-12 w-12" src="https://avatars.githubusercontent.com/u/73314792?v=4" alt="ChitChat Logo">
@@ -44,6 +47,7 @@
 		</div>
 
 		<div class="flex-grow">
+			<h1>GitHub</h1>
 			<div class="github outline p-7 justify-center rounded-xl shadow-lg flex items-center space-x-4 m-4 min-w-[200px] w-auto">
 				<div class="shrink-0">
 				  <img class="rounded-full h-12 w-12" src="https://avatars.githubusercontent.com/u/73314792?v=4" alt="ChitChat Logo">
