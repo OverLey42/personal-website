@@ -46,6 +46,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: personal-page
+          project: "personal-website"
           entrypoint: '.svelte-kit/build/index.js' # same as `out` option in config
           # root: '<root>' # if necessary
