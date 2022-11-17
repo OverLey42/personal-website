@@ -10,8 +10,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-		  // default options are shown
-		  out: 'build',
+			
 		})
 	  },
 	preprocess: [
