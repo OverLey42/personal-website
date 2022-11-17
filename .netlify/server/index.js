@@ -2072,7 +2072,7 @@ async function respond(request, options, state) {
     fetch: null,
     getClientAddress: state.getClientAddress || (() => {
       throw new Error(
-        `${"svelte-adapter-deno"} does not specify getClientAddress. Please raise an issue`
+        `${"@sveltejs/adapter-netlify"} does not specify getClientAddress. Please raise an issue`
       );
     }),
     locals: {},
