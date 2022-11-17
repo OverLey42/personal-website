@@ -47,5 +47,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: personal-page
-          entrypoint: '{out}/index.js' # same as `out` option in config
+          entrypoint: '.svelte-kit/build/index.js' # same as `out` option in config
           # root: '<root>' # if necessary
