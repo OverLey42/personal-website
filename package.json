@@ -21,6 +21,7 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"postcss": "^8.4.19",
 		"svelte": "^3.44.0",
+		"svelte-adapter-deno": "^0.8.1",
 		"svelte-adapter-deno-deploy": "^0.6.7",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
