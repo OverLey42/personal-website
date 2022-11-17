@@ -41,7 +41,7 @@ jobs:
 
       - name: Build site
         run: pnpm build
-        working-directory: 'build/index.js' # if necessary, should contain {out}
+        working-directory: 'build' # if necessary, should contain {out}
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
