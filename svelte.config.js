@@ -12,7 +12,6 @@ const config = {
 		adapter: adapter({
 		  // default options are shown
 		  out: 'build',
-		  deps: './deps.ts' // (relative to adapter-deno package)
 		})
 	  },
 	preprocess: [

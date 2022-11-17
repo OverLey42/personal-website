@@ -4,11 +4,12 @@ export const manifest = {
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		entry: {"file":"_app/immutable/start-2fe1d55f.js","imports":["_app/immutable/start-2fe1d55f.js","_app/immutable/chunks/index-d6629a5e.js","_app/immutable/chunks/singletons-e7435dd7.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-f5f135aa.js","imports":["_app/immutable/start-f5f135aa.js","_app/immutable/chunks/index-beaab6d2.js","_app/immutable/chunks/singletons-973d38e9.js"],"stylesheets":[]},
 		nodes: [
 			() => import('../output/server/nodes/0.js'),
 			() => import('../output/server/nodes/1.js'),
-			() => import('../output/server/nodes/2.js')
+			() => import('../output/server/nodes/2.js'),
+			() => import('../output/server/nodes/3.js')
 		],
 		routes: [
 			{
@@ -18,6 +19,15 @@ export const manifest = {
 				types: [],
 				optional: [],
 				page: { layouts: [0], errors: [1], leaf: 2 },
+				endpoint: null
+			},
+			{
+				id: "/lines",
+				pattern: /^\/lines\/?$/,
+				names: [],
+				types: [],
+				optional: [],
+				page: { layouts: [0], errors: [1], leaf: 3 },
 				endpoint: null
 			}
 		],
