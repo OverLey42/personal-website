@@ -1,20 +1,20 @@
 <script>
-	//import { onMount } from 'svelte'
-    //import anime from 'animejs'
-    //import "../../styles.css"
-	//import "../../app.css";
+    import { onMount } from 'svelte'
+    import anime from 'animejs'
+    import "../../styles.css"
+    import "../../app.css";
 
 
-    // onMount(()=> {
-    //     anime({
-    //         targets: '.path',
-	// 		pathLength: 2000,
-	// 		opacity: 10,
-	// 		duration: 500000,
-	// 		delay: 200,
-	// 		easing: 'easeOutElastic(-1, -.6)'
-    //     });
-    // });
+     onMount(()=> {
+         anime({
+            targets: '.path',
+     		pathLength: 2000,
+     		opacity: 10,
+     		duration: 500000,
+     		delay: 200,
+     		easing: 'easeOutElastic(-1, -.6)'
+         });
+     });
 </script>
 
 <svg class="svgContainer" viewBox="-67.167 -38.065 113.219 582.766">

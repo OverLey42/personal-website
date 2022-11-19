@@ -131,7 +131,6 @@ declare module '$env/static/private' {
 	export const npm_config_engine_strict: string;
 	export const TERM_PROGRAM: string;
 	export const _: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -266,7 +265,6 @@ declare module '$env/dynamic/private' {
 		npm_config_engine_strict: string;
 		TERM_PROGRAM: string;
 		_: string;
-		NODE_ENV: string;
 		[key: string]: string | undefined;
 	}
 }
