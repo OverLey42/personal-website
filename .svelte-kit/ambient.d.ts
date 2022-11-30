@@ -56,7 +56,6 @@ declare module '$env/static/private' {
 	export const GTK_MODULES: string;
 	export const ANDROID_NDK: string;
 	export const XDG_SEAT: string;
-	export const ZEITGEIST_DATA_PATH: string;
 	export const PWD: string;
 	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
@@ -191,7 +190,6 @@ declare module '$env/dynamic/private' {
 		GTK_MODULES: string;
 		ANDROID_NDK: string;
 		XDG_SEAT: string;
-		ZEITGEIST_DATA_PATH: string;
 		PWD: string;
 		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;

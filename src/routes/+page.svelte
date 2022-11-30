@@ -1,38 +1,68 @@
 <script>
 	import { onMount } from 'svelte'
-	import anime from 'animejs'
 	import Lines from './lines/+page.svelte';
+	import Footer from './footer/+page.svelte';
+	import anime from 'animejs'
 	import "../styles.css"
 	import "../app.css";
 
+	
+
 	onMount(()=> {
-		var tl = anime.timeline({
-			easing: 'easeInOutQuint',
-			});
-			
-			tl
-			.add({
+		// There is probably a better solution when this lol
+		
+		const mediaQuery = window.matchMedia('(min-width: 1024px)');
+		
+		// Check if the media query is true, for the specific animation
+		if (mediaQuery.matches) {
+			// Then trigger an alert
+			// (Computer)
+			anime({
 				targets: '.header',
-				fontSize: '12vw',
+				fontSize: '9vw',
+				easing: 'easeInOutQuint',
 				opacity: 100,
 				duration: 1500,
-			})
-			.add({
-				targets: '.social',
-				opacity: 100,
-				duration: 100000
-			})
-			.add({
-				targets: '.github',
-				opacity: 100,
-				translateX: 250,
 			});
-    	});
+		} else {
+			// (mobile)
+			anime({
+				targets: '.header',
+				fontSize: '24vw',
+				easing: 'easeInOutQuint',
+				opacity: 100,
+				duration: 1500,
+			});
+		  }
+
+		mediaQuery.addEventListener("change", (event) => {
+			// Check if the media query is changed, for the specific size
+			if (event.matches) {
+				// (Computer)
+				anime({
+					targets: '.header',
+					fontSize: '9vw',
+					easing: 'easeInOutQuint',
+					opacity: 100,
+					duration: 1500,
+				});
+			} else {
+				// (mobile)
+				anime({
+					targets: '.header',
+					fontSize: '22vw',
+					easing: 'easeInOutQuint',
+					opacity: 100,
+					duration: 1500,
+				});
+			}
+		});
+    });
 </script>
 
 <Lines></Lines>
 
-<h1 class="header font-extrabold text-transparent text-[5vw] bg-clip-text bg-gradient-to-r text-center mt-32 bg-[#141414] to-[#141414] via-purple-500 from-[#e20f8a] bg-size-200 bg-pos-0">OverLey</h1>
+<h1 class="header font-extrabold text-transparent xl:text-[2vw] text-[8vw] bg-clip-text bg-gradient-to-r text-center mt-32 bg-[#141414] to-[#141414] via-purple-500 from-[#e20f8a] bg-size-200 bg-pos-0">OverLey</h1>
 
 <div class="social flex justify-center">
 	<div class="social-child flex flex-wrap outline outline-offset-8 rounded-xl text-center p-10 m-12">
@@ -89,3 +119,5 @@
 		</div>
 	</div>
 </div>
+
+<Footer></Footer>

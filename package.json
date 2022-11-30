@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@types/animejs": "^3.1.6"
+		"@types/animejs": "^3.1.6",
+		"taos": "^1.0.2"
 	}
 }
