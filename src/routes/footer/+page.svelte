@@ -17,7 +17,7 @@
   
 </script>
 
-<p class="shooting-star opacity-0 ml-[-40%]">. . . o</p>
+<p class="shooting-star absolute opacity-0 ml-[-40%]">. . . o</p>
 <div class="footer text-center h-[50px]">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div class="image flex justify-center text-center" on:click={shootingStar}>
