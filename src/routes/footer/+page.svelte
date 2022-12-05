@@ -33,9 +33,3 @@
         <img class="cat w-[75%] md:w-[80%] lg:w-[40%] 2xl:w-[30%]" src="cat-stars.png" alt="" title="image by rain <3">
     </div>    
 </div>
-
-
-
-
-
-
