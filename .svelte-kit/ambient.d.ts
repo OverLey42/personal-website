@@ -61,7 +61,6 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_DESKTOP: string;
 	export const XDG_SESSION_TYPE: string;
 	export const DRAWHOME: string;
-	export const PANEL_GDK_CORE_DEVICE_EVENTS: string;
 	export const npm_config_init_module: string;
 	export const SYSTEMD_EXEC_PID: string;
 	export const XAUTHORITY: string;
@@ -110,6 +109,7 @@ declare module '$env/static/private' {
 	export const CASROOT: string;
 	export const npm_execpath: string;
 	export const XDG_RUNTIME_DIR: string;
+	export const DEBUGINFOD_URLS: string;
 	export const npm_package_json: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const CSF_XSMessage: string;
@@ -128,10 +128,8 @@ declare module '$env/static/private' {
 	export const npm_config_global_prefix: string;
 	export const MAIL: string;
 	export const DRAWDEFAULT: string;
-	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_engine_strict: string;
-	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const TERM_PROGRAM: string;
 	export const _: string;
 }
@@ -198,7 +196,6 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_DESKTOP: string;
 		XDG_SESSION_TYPE: string;
 		DRAWHOME: string;
-		PANEL_GDK_CORE_DEVICE_EVENTS: string;
 		npm_config_init_module: string;
 		SYSTEMD_EXEC_PID: string;
 		XAUTHORITY: string;
@@ -247,6 +244,7 @@ declare module '$env/dynamic/private' {
 		CASROOT: string;
 		npm_execpath: string;
 		XDG_RUNTIME_DIR: string;
+		DEBUGINFOD_URLS: string;
 		npm_package_json: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		CSF_XSMessage: string;
@@ -265,10 +263,8 @@ declare module '$env/dynamic/private' {
 		npm_config_global_prefix: string;
 		MAIL: string;
 		DRAWDEFAULT: string;
-		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		npm_node_execpath: string;
 		npm_config_engine_strict: string;
-		GIO_LAUNCHED_DESKTOP_FILE: string;
 		TERM_PROGRAM: string;
 		_: string;
 		[key: string]: string | undefined;
