@@ -4,7 +4,7 @@
 <p align="center">Svelte Kit • Tailwind • animejs</p>
 <p align="center">deployed with deno</p>
 <p align="center">
-  <a href="https://spacedrive.com"><strong>overley.dev</strong></a>
+  <a href="personal-website.deno.dev"><strong>personal-website.deno.dev</strong></a>
 </p>
   
 <h1>Features</h1>
