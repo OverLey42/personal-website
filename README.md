@@ -4,7 +4,7 @@
 <p align="center">Svelte Kit • Tailwind • animejs</p>
 <p align="center">deployed with deno</p>
 <p align="center">
-  <a href="overley.dev"><strong>overley.dev</strong></a>
+  <a href="https://overley.dev"><strong>overley.dev</strong></a>
 </p>
   
 <h1>Features</h1>
