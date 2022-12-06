@@ -1,38 +1,82 @@
-# create-svelte
+<h1 align="center"> Personal Website </h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<img src="images/page.png" alt="">
+<p align="center">Svelte Kit • Tailwind • animejs</p>
+<p align="center">deployed with deno</p>
+<p align="center">
+  <a href="https://spacedrive.com"><strong>overley.dev</strong></a>
+</p>
+  
+<h1>Features</h1>
 
-## Creating a project
+- #### Fully responsive (**PC, Tablet, Mobile**)
+<br/>
+<img src="images/responsive.gif" alt="">
+<br/>
 
-If you're seeing this, you've probably already done this step. Congrats!
+##### Mobile
+<img src="images/mobile.png" width="250px" alt="">
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- #### Animations (**header, social hover, svg line, eastereggs**)
 
-# create a new project in my-app
-npm create svelte@latest my-app
+<br/>
+<img src="images/header.gif" width="300px" alt="">
+<img src="images/social-hover.gif" width="300px" alt="">
+<details>
+  <summary>Line</summary>
+<img src="images/line.gif" alt="">
+</details>
+
+<br/>
+
+- ### Easter eggs
+    <details>
+      <summary>SPOILER!</summary>
+
+      - click the cat (for shooting star animation)
+
+      - press <kbd>C</kbd> now the side spin one time
+
+      - press <kbd>F12</kbd> and look in the console section with your webbrowser dev tools (you should see a cat and stars in ASCII)
+    </details>
+
+<br/>
+
+## Installation
+
+#### requirements
+
+- node 16+ (<kbd>v19.2.0</kbd>)
+- npm (<kbd>v8.19.2</kbd>)
+
+
+### Install the repository on your local device
+
+```console
+$ git clone https://github.com/OverLey42/personal-website
+$ cd personal-website
 ```
 
-## Developing
+### Install the projekt (packages)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```console
+$ npm i
 ```
 
-## Building
+### Start the website
 
-To create a production version of your app:
-
-```bash
-npm run build
+```console
+$ npm run dev
 ```
+Website: [localhost](http://localhost:5173/))
 
-You can preview the production build with `npm run preview`.
+## Rsources
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+##### Tailwind:
+
+- Gradient hover animation effect [this](https://github.com/OverLey42/personal-website/edit/main/README.md#animations-header-social-hover-svg-line-eastereggs): https://play.tailwindcss.com/XFQDCOKQ8L
+
+##### Ascii art:
+
+- stars: https://gist.github.com/macu/8240d2f44db4d3cc5975
+- cat: http://www.ascii-art.de/ascii/c/cat.txt
