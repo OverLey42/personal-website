@@ -72,8 +72,8 @@ Website: [localhost](http://localhost:5173/))
 
 <br/>
 
-### Site Performance
-google lighthouse (desktop test)
+## Site Performance
+##### google lighthouse (desktop test)
 <img src="images/performance.png" width="300px" alt="">
 
 <br/>
