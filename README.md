@@ -77,3 +77,6 @@ Website: [localhost](http://localhost:5173/))
 
 - stars: https://gist.github.com/macu/8240d2f44db4d3cc5975
 - cat: http://www.ascii-art.de/ascii/c/cat.txt
+
+
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" alt="">
