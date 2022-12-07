@@ -40,13 +40,9 @@
       - press <kbd>F12</kbd> and look in the console section with your webbrowser dev tools (you should see a cat and stars in ASCII)
     </details>
 
-<br/>
-
 ## Site Performance
 ##### google lighthouse (desktop test)
 <img src="images/performance.png" width="300px" alt="">
-
-<br/>
 
 ## Installation
 
@@ -75,8 +71,6 @@ $ npm i
 $ npm run dev
 ```
 Website: [localhost](http://localhost:5173/))
-
-<br/>
 
 ## Rsources
 
