@@ -70,6 +70,14 @@ $ npm run dev
 ```
 Website: [localhost](http://localhost:5173/))
 
+<br/>
+
+### Site Performance
+google lighthouse (desktop test)
+<img src="images/performance.png" width="300px" alt="">
+
+<br/>
+
 ## Rsources
 
 ##### Tailwind:
