@@ -79,4 +79,4 @@ Website: [localhost](http://localhost:5173/))
 - cat: http://www.ascii-art.de/ascii/c/cat.txt
 
 
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" alt="">
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" width="100%" alt="">
