@@ -10,24 +10,19 @@
 <h1>Features</h1>
 
 - #### Fully responsive (**PC, Tablet, Mobile**)
-<br/>
 <img src="images/responsive.gif" alt="">
-<br/>
 
 ##### Mobile
 <img src="images/mobile.png" width="250px" alt="">
 
 - #### Animations (**header, social hover, svg line, eastereggs**)
 
-<br/>
 <img src="images/header.gif" width="300px" alt="">
 <img src="images/social-hover.gif" width="300px" alt="">
 <details>
   <summary>Line</summary>
 <img src="images/line.gif" alt="">
 </details>
-
-<br/>
 
 - ### Easter eggs
     <details>
