@@ -41,7 +41,7 @@
             <a href="https://discord.com/">
                 <div class="discord hover:-translate-y-1 hover:scale-110 transition-all duration-500 bg-[#141414] hover:bg-gradient-to-l to-[#141414] via-indigo-400 hover:duration-1000 from-[#141414] bg-size-200 bg-pos-0 hover:bg-pos-100 outline-offset-4 p-7 justify-center rounded-xl shadow-lg flex items-center space-x-4 m-4 w-auto">
                     <div class="shrink-0">
-                      <img class="rounded-full h-12 w-12" src="	https://cdn.discordapp.com/avatars/331162102234349579/2474234f3234cce96e6f1c64d5b60ce9.webp?size=128" alt="ChitChat Logo">
+                      <img class="rounded-full h-12 w-12" src="	https://cdn.discordapp.com/avatars/331162102234349579/2474234f3234cce96e6f1c64d5b60ce9.webp?size=128">
                     </div>
                     <div>
                       <h2>OverLey</h2>
