@@ -60,7 +60,7 @@
                     </div>
                     <div>
                       <h2>OverLey</h2>
-                      <p>overlel@pm.me</p>
+                      <p>removed (due to spam)</p>
                     </div>
                 </div>
             </a>
