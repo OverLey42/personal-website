@@ -1,11 +1,6 @@
-<script>
-    import "../styles.css"
-	import "../app.css";
-</script>
-
 <div class="social flex flex-col justify-center text-center">
     <h2 class="social-title">Socials</h2>
-    <div class="social-child flex flex-wrap border-[1.5px] md:border-[3.5px] border-spacing rounded-2xl p-4 mt-8 md:p-8 m-12 ml-88 mr-[8vw] ml-[8vw] md:mr-[22vw] md:ml-[22vw]">
+    <div class="social-child flex flex-wrap border-[1.5px] md:border-[3.5px] border-spacing rounded-2xl p-4 mt-8 md:p-8 m-12 ml-88 mr-[8vw] ml-[8vw] md:mr-[18vw] md:ml-[18vw]">
         <div class="flex-grow">
             <h2><img class="rounded-full h-6 w-6 inline-block" src="/icon-github.svg" alt=""> GitHub</h2>
             <a href="https://github.com/OverLey42">

@@ -5,22 +5,6 @@ body {
 	  margin:0;
 }
 
-h1 {
-  font-family: 'Inconsolata', monospace;
-}
-
-.header {
-  font-family: 'Inconsolata', monospace;
-}
-
-h2 {
-  font-family: 'Inconsolata', monospace;
-}
-
-p {
-  font-family: 'Inconsolata', monospace;
-}
-
 body::-webkit-scrollbar {
     width: 1em;
 }
@@ -32,3 +16,19 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(44, 44, 44);
   }
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/poppins.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+  
+body {
+  font-family: 'Poppins', monospace;
+}

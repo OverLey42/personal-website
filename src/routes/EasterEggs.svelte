@@ -1,8 +1,6 @@
 <script>
     import { onMount } from 'svelte'
 	import anime from 'animejs'
-    import "../styles.css"
-	import "../app.css";
 
 
     onMount(()=> {

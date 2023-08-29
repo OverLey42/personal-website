@@ -1,8 +1,6 @@
 <script>
     import { onMount } from 'svelte'
     import anime from 'animejs'
-    import "../styles.css"
-	import "../app.css";
 
     
     onMount(()=> {
@@ -57,4 +55,4 @@
      })
 </script>
 
-<h1 class="header font-extrabold text-transparent xl:text-[2vw] text-[8vw] bg-clip-text bg-gradient-to-r text-center bg-[#141414] to-[#141414] via-purple-500 from-[#e20f8a] bg-size-200 bg-pos-0 mt-14 sm:mt-32">OverLey</h1>
+<h1 class="header font-semibold italic text-transparent xl:text-[4vw] text-[8vw] bg-clip-text bg-gradient-to-r text-center bg-[#141414] to-[#141414] via-purple-500 from-[#e20f8a] bg-size-200 bg-pos-0 mt-14 sm:mt-32">OverLey</h1>

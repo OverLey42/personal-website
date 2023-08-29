@@ -2,9 +2,6 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    fontFamily: {
-      'inconsolata': ['Inconsolata', 'monospace'],
-    },
     extend: {
         backgroundSize: {
             'size-200': '200% 200%',

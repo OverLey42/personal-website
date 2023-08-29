@@ -6,8 +6,6 @@
 	import Socials from './Socials.svelte';
 	import EasterEggs from './EasterEggs.svelte';
 	import Footer from './footer/+page.svelte';
-	import "../styles.css"
-	import "../app.css";
 </script>
 
 <main class="content min-h-[calc(100vh_-_40px)]">
