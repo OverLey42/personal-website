@@ -40,7 +40,7 @@
                     </div>
                     <div>
                       <h2>OverLey</h2>
-                      <p>@OverLey#0001</p>
+                      <p>@overley</p>
                     </div>
                 </div>
             </a>

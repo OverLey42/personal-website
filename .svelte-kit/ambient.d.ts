@@ -33,8 +33,10 @@ declare module '$env/static/private' {
 	export const __GL_SYNC_DISPLAY_DEVICE: string;
 	export const COLORTERM: string;
 	export const npm_config_cache: string;
+	export const npm_package_dev_optional: string;
 	export const XDG_MENU_PREFIX: string;
 	export const TERM_PROGRAM_VERSION: string;
+	export const npm_package_integrity: string;
 	export const GNOME_KEYRING_CONTROL: string;
 	export const NODE: string;
 	export const SSH_AUTH_SOCK: string;
@@ -49,6 +51,7 @@ declare module '$env/static/private' {
 	export const LOGNAME: string;
 	export const XDG_SESSION_DESKTOP: string;
 	export const XDG_SESSION_TYPE: string;
+	export const npm_package_dev: string;
 	export const npm_config_init_module: string;
 	export const SYSTEMD_EXEC_PID: string;
 	export const XAUTHORITY: string;
@@ -59,11 +62,13 @@ declare module '$env/static/private' {
 	export const GDM_LANG: string;
 	export const HOME: string;
 	export const USERNAME: string;
+	export const npm_package_peer: string;
 	export const LANG: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const MEMORY_PRESSURE_WATCH: string;
 	export const VTE_VERSION: string;
+	export const npm_package_resolved: string;
 	export const GIT_ASKPASS: string;
 	export const INVOCATION_ID: string;
 	export const MANAGERPID: string;
@@ -72,6 +77,7 @@ declare module '$env/static/private' {
 	export const CLUTTER_DEFAULT_FPS: string;
 	export const npm_lifecycle_script: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
+	export const npm_package_optional: string;
 	export const npm_config_npm_version: string;
 	export const XDG_SESSION_CLASS: string;
 	export const TERM: string;
@@ -103,9 +109,9 @@ declare module '$env/static/private' {
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_engine_strict: string;
+	export const npm_package_engines_node: string;
 	export const TERM_PROGRAM: string;
 	export const _: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -142,8 +148,10 @@ declare module '$env/dynamic/private' {
 		__GL_SYNC_DISPLAY_DEVICE: string;
 		COLORTERM: string;
 		npm_config_cache: string;
+		npm_package_dev_optional: string;
 		XDG_MENU_PREFIX: string;
 		TERM_PROGRAM_VERSION: string;
+		npm_package_integrity: string;
 		GNOME_KEYRING_CONTROL: string;
 		NODE: string;
 		SSH_AUTH_SOCK: string;
@@ -158,6 +166,7 @@ declare module '$env/dynamic/private' {
 		LOGNAME: string;
 		XDG_SESSION_DESKTOP: string;
 		XDG_SESSION_TYPE: string;
+		npm_package_dev: string;
 		npm_config_init_module: string;
 		SYSTEMD_EXEC_PID: string;
 		XAUTHORITY: string;
@@ -168,11 +177,13 @@ declare module '$env/dynamic/private' {
 		GDM_LANG: string;
 		HOME: string;
 		USERNAME: string;
+		npm_package_peer: string;
 		LANG: string;
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		MEMORY_PRESSURE_WATCH: string;
 		VTE_VERSION: string;
+		npm_package_resolved: string;
 		GIT_ASKPASS: string;
 		INVOCATION_ID: string;
 		MANAGERPID: string;
@@ -181,6 +192,7 @@ declare module '$env/dynamic/private' {
 		CLUTTER_DEFAULT_FPS: string;
 		npm_lifecycle_script: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
+		npm_package_optional: string;
 		npm_config_npm_version: string;
 		XDG_SESSION_CLASS: string;
 		TERM: string;
@@ -212,9 +224,10 @@ declare module '$env/dynamic/private' {
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		npm_node_execpath: string;
 		npm_config_engine_strict: string;
+		npm_package_engines_node: string;
 		TERM_PROGRAM: string;
 		_: string;
-		NODE_ENV: string;
+		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
 	}
 }
@@ -231,6 +244,6 @@ declare module '$env/dynamic/private' {
  */
 declare module '$env/dynamic/public' {
 	export const env: {
-		[key: string]: string | undefined;
+		[key: `PUBLIC_${string}`]: string | undefined;
 	}
 }
